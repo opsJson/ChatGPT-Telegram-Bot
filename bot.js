@@ -46,8 +46,6 @@ bot.on("message", async ctx => {
 	chats[user] = chat;
 	
 	ctx.sendMessage(response);
-	
-	console.log(chat);
 });
 
 bot.launch();
